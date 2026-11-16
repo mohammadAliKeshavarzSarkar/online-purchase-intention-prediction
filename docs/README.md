@@ -10,7 +10,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 2. [Precision, recall, and F1-score](01_foundations/02_precision_recall_f1.md)
 3. [Loading and validating the UCI dataset](02_dataset_exploration/01_loading_and_validation.md)
 
-**Next:** Understanding features and their types (not yet completed).
+4. [Understanding features and data types](02_dataset_exploration/02_understanding_features.md)
+
+**Next:** Run the feature-type and product-page comparison exercise in Codespaces.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
