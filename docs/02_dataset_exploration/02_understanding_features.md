@@ -58,3 +58,16 @@ python src/01_explore_dataset.py
 
 ## Key takeaway
 **A feature's meaning determines its type; the way it is stored in a CSV or DataFrame does not always tell the whole story.**
+
+## Actual experiment results — Codespaces
+
+The researcher ran the feature inspection script and reported these results:
+
+- `ProductRelated`: `int64`; `BounceRates`: `float64`; `Month` and `VisitorType`: `str`; `Weekend` and `Revenue`: `bool`. `OperatingSystems` is stored as `int64` but semantically categorical.
+- Visitor types: Returning_Visitor **10,551**; New_Visitor **1,694**; Other **85**.
+- Mean `ProductRelated` for `Revenue=False`: **28.714642**.
+- Mean `ProductRelated` for `Revenue=True`: **48.210168**.
+
+Purchase sessions averaged **19.50 more product-page visits**, about **67.9% more** relative to non-purchase sessions. This is an association, not proof of causality or early-session predictive availability. Means may be influenced by outliers.
+
+**Next question (not yet tested):** How does the purchase rate differ by visitor type?
