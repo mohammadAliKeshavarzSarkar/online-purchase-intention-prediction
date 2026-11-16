@@ -12,7 +12,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 4. [Understanding features and data types](02_dataset_exploration/02_understanding_features.md)
 
-**Next:** Run the feature-type and product-page comparison exercise in Codespaces.
+5. [Purchase rates and analytical thinking](02_dataset_exploration/03_purchase_rates_and_analytical_thinking.md)
+
+**Next:** Examine whether visitor-type purchase-rate differences persist across months.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
