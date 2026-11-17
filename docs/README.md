@@ -16,7 +16,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 6. [Monthly purchase rates by visitor type](02_dataset_exploration/04_monthly_purchase_rates.md)
 
-**Next:** Examine the distribution of product-page visits, not just the average.
+7. [Mean, median, and possible outliers](02_dataset_exploration/05_mean_median_outliers.md)
+
+**Next:** Inspect product-page visit distributions using quantiles or visualizations.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
