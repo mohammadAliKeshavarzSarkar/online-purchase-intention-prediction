@@ -14,7 +14,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 5. [Purchase rates and analytical thinking](02_dataset_exploration/03_purchase_rates_and_analytical_thinking.md)
 
-**Next:** Examine whether visitor-type purchase-rate differences persist across months.
+6. [Monthly purchase rates by visitor type](02_dataset_exploration/04_monthly_purchase_rates.md)
+
+**Next:** Examine the distribution of product-page visits, not just the average.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
