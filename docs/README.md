@@ -18,7 +18,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 7. [Mean, median, and possible outliers](02_dataset_exploration/05_mean_median_outliers.md)
 
-**Next:** Inspect product-page visit distributions using quantiles or visualizations.
+8. [Percentiles, distributions, and IQR](02_dataset_exploration/06_percentiles_and_distributions.md)
+
+**Next:** Visualize product-page visit distributions with a histogram or boxplot.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
