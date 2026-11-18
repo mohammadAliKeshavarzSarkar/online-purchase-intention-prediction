@@ -20,7 +20,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 8. [Percentiles, distributions, and IQR](02_dataset_exploration/06_percentiles_and_distributions.md)
 
-**Next:** Visualize product-page visit distributions with a histogram or boxplot.
+9. [Visualizing product-page visit distributions](02_dataset_exploration/07_histogram_product_pages.md)
+
+**Next:** Compare group distributions using shared histogram bins and normalized frequencies.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
