@@ -22,7 +22,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 9. [Visualizing product-page visit distributions](02_dataset_exploration/07_histogram_product_pages.md)
 
-**Next:** Compare group distributions using shared histogram bins and normalized frequencies.
+10. [Normalized histograms with shared bins](02_dataset_exploration/08_normalized_histograms.md)
+
+**Next:** Examine feature roles, leakage risks, and the train/test split.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
