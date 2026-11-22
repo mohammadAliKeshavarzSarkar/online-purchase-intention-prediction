@@ -24,7 +24,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 10. [Normalized histograms with shared bins](02_dataset_exploration/08_normalized_histograms.md)
 
-**Next:** Examine feature roles, leakage risks, and the train/test split.
+11. [Training and testing split](02_dataset_exploration/09_train_test_split.md)
+
+**Next:** Examine feature availability and data leakage before preprocessing.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
