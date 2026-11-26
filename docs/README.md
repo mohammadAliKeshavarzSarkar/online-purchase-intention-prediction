@@ -26,7 +26,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 11. [Training and testing split](02_dataset_exploration/09_train_test_split.md)
 
-**Next:** Examine feature availability and data leakage before preprocessing.
+12. [PageValues and potential data leakage](02_dataset_exploration/10_pagevalues_and_leakage.md)
+
+**Next:** Identify feature roles and introduce categorical encoding.
 
 ## Documentation policy
 - Document what was actually executed separately from what is expected or illustrative.
