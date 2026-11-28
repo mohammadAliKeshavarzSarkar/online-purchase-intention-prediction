@@ -51,6 +51,10 @@ Randomly assign visitors to two website versions. Group A sees the original desi
 - Label the outcome as an example, such as purchase rate. Do not display fabricated results. State that a valid experiment is necessary for causal interpretation.
 - Keep one dominant diagram on the slide. The supermarket example is recommended; discuss the other examples orally if time allows.
 
+### Original source visual and snapshot instructions
+
+**Original article visual:** No dedicated causal diagram in Section 13. The beer-and-diapers example is on [PDF page 8](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=8), lower left; the randomized website example continues at upper right. Generate the primary supermarket diagram, crediting Domingos (2012), Section 13 as its conceptual source. No sales figures or causal outcomes are supplied by the article.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Section 13, page 8 of the author-hosted nine-page PDF.
