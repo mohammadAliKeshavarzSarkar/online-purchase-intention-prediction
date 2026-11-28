@@ -10,7 +10,7 @@
 | Evaluation | Which candidate is better? | Information gain, likelihood, accuracy |
 | Optimization | How do we find a good candidate? | Greedy search, gradient descent |
 
-**Decision tree:** Tree structure → Information gain → Greedy search
+**Decision tree:** Tree structure (representation) + Information gain (evaluation) + Greedy search (optimization)
 
 ## Speaker notes (not displayed on the slide)
 
