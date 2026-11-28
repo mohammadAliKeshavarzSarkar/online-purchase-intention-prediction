@@ -30,7 +30,7 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 13. [Categorical encoding and training-category inspection](02_dataset_exploration/11_categorical_encoding.md)
 
-**Next:** Implement and verify one-hot encoding (Lesson 13 continuation).
+**Next:** Lesson 14 — Numerical feature scaling.
 
 ## Documentation policy
 - For each new lesson or substantive experiment, explain the concept and real-world feature meaning before code: what it measures, how it is generated, units or categories where known, and what it does not measure.
