@@ -23,6 +23,10 @@ Domingos also compares Naive Bayes and a rule learner in Figure 2. In that exper
 
 We can use cross-validation to select tree complexity and regularization to penalize excessive structure. However, excessive tuning can overfit validation data too. The aim is to balance flexibility and reliability, not simply to make the model as simple as possible.
 
+### Optional discussion — Multiple testing
+
+If a learner tries many candidate rules, some may appear statistically significant purely by chance. This is another way to overfit; adjusting for multiple comparisons or controlling the false discovery rate can help. This point can be discussed if time permits.
+
 ## Visual plan (for later generation; not slide text)
 
 ### Primary visual — Bias and variance dartboards
