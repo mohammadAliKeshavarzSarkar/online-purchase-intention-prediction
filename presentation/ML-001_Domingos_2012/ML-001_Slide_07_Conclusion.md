@@ -39,6 +39,10 @@ Thank you for your attention.
 
 **Alternative:** Use the five-row summary table alone if the concept map makes the slide crowded.
 
+### Original source visual and snapshot instructions
+
+**Original article visual:** No dedicated conclusion figure in Section 14. [PDF page 8](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=8), right column. Use the custom five-lesson concept map; clearly label it as a presentation synthesis, not an original figure or a summary of all twelve lessons.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Section 14 (page 8 of the author-hosted nine-page PDF), with a synthesis of Sections 2, 3, 5, 8 and 13.
