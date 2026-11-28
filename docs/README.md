@@ -31,6 +31,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 **Next:** Identify feature roles and introduce categorical encoding.
 
 ## Documentation policy
+- For each new lesson or substantive experiment, explain the concept and real-world feature meaning before code: what it measures, how it is generated, units or categories where known, and what it does not measure.
+- State the research question, show a small worked numerical example and calculation, explain Python implementation, record actual results, interpret them, and state limitations. Clearly label hypothetical examples and unknown source definitions.
+- When a learner raises a conceptual question, incorporate the clarification into the relevant lesson and cross-link earlier feature explanations where useful.
 - Document what was actually executed separately from what is expected or illustrative.
 - Keep code and research claims reproducible.
 - Add new lessons as learning progresses; do not silently overwrite experimental findings.
