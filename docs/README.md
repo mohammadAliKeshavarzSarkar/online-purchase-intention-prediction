@@ -14,9 +14,28 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 5. [Purchase rates and analytical thinking](02_dataset_exploration/03_purchase_rates_and_analytical_thinking.md)
 
-**Next:** Examine whether visitor-type purchase-rate differences persist across months.
+6. [Monthly purchase rates by visitor type](02_dataset_exploration/04_monthly_purchase_rates.md)
+
+7. [Mean, median, and possible outliers](02_dataset_exploration/05_mean_median_outliers.md)
+
+8. [Percentiles, distributions, and IQR](02_dataset_exploration/06_percentiles_and_distributions.md)
+
+9. [Visualizing product-page visit distributions](02_dataset_exploration/07_histogram_product_pages.md)
+
+10. [Normalized histograms with shared bins](02_dataset_exploration/08_normalized_histograms.md)
+
+11. [Training and testing split](02_dataset_exploration/09_train_test_split.md)
+
+12. [PageValues and potential data leakage](02_dataset_exploration/10_pagevalues_and_leakage.md)
+
+13. [Categorical encoding and training-category inspection](02_dataset_exploration/11_categorical_encoding.md)
+
+**Next:** Lesson 14 — Numerical feature scaling.
 
 ## Documentation policy
+- For each new lesson or substantive experiment, explain the concept and real-world feature meaning before code: what it measures, how it is generated, units or categories where known, and what it does not measure.
+- State the research question, show a small worked numerical example and calculation, explain Python implementation, record actual results, interpret them, and state limitations. Clearly label hypothetical examples and unknown source definitions.
+- When a learner raises a conceptual question, incorporate the clarification into the relevant lesson and cross-link earlier feature explanations where useful.
 - Document what was actually executed separately from what is expected or illustrative.
 - Keep code and research claims reproducible.
 - Add new lessons as learning progresses; do not silently overwrite experimental findings.
