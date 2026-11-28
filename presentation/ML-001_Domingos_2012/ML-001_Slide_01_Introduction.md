@@ -53,6 +53,10 @@ This presentation focuses on five of those twelve lessons: learning components, 
 
 ---
 
+### Original source visual and snapshot instructions
+
+**Original article visual:** None in Section 1. Use the custom introductory diagram above. [Source page 1](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=1). Do not screenshot the abstract as a decorative visual.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Abstract and Section 1 (Introduction).
