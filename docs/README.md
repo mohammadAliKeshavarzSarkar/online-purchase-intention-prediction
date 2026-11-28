@@ -28,7 +28,9 @@ Read lessons in numerical order. Each lesson distinguishes explanations and hypo
 
 12. [PageValues and potential data leakage](02_dataset_exploration/10_pagevalues_and_leakage.md)
 
-**Next:** Identify feature roles and introduce categorical encoding.
+13. [Categorical encoding and training-category inspection](02_dataset_exploration/11_categorical_encoding.md)
+
+**Next:** Implement and verify one-hot encoding (Lesson 13 continuation).
 
 ## Documentation policy
 - For each new lesson or substantive experiment, explain the concept and real-world feature meaning before code: what it measures, how it is generated, units or categories where known, and what it does not measure.
