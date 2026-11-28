@@ -22,6 +22,9 @@ In our UCI Online Shoppers Purchasing Intention dataset, each row is a shopping 
 
 **Important:** `Browser=4` does not imply twice the quantity of `Browser=2`. A column stored as integers may represent categories.
 
+## Understanding PageValues
+`PageValues` is a numerical web analytics measure of monetary value associated with visited pages, not the number of pages or the visitor's actual spending. See [Lesson 12's worked example and calculation limitations](10_pagevalues_and_leakage.md#real-world-meaning-what-is-page-value).
+
 ## Why types matter
 Preprocessing depends on meaning, not just storage type. Numerical features can often be passed to models directly or scaled. Categorical features may require encoding (such as one-hot encoding). We will implement preprocessing later and avoid learning transformations from test data.
 
