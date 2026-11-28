@@ -26,6 +26,10 @@ The broader challenge is that the true goal is performance on future data, which
 - Optional grouped bar chart: x-axis Model A and Model B; y-axis accuracy (0–100%). Training and held-out accuracy series: A = 100%, 50%; B = 75%, 75%. Label as a hypothetical comparison from the paper's overfitting discussion (Section 5), not experimental measurements. Use consistent colors for training and held-out bars.
 - If space is limited, use only the split diagram and explain the numerical comparison orally.
 
+### Original source visual and snapshot instructions
+
+**Original article visual:** No dedicated train/test chart in Section 3. Use the custom split diagram. The 100/50 versus 75/75 accuracy example is in [PDF page 3](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=3), Section 5, right column below Figure 1. If generating the grouped bars, caption them “Illustrative values from Domingos (2012), Section 5; chart created for this presentation.” Do not label them as measured results or as an original article figure.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Section 3 (PDF page 2); numerical comparison from Section 5 (PDF page 3), author-hosted version.
