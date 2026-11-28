@@ -45,6 +45,10 @@ Raw data → Clean and construct features → Train model → Evaluate → Refin
 
 Use only one dominant visual on the slide; the XOR figure is recommended. No invented performance metrics or project-specific dataset results.
 
+### Original source visual and snapshot instructions
+
+**Original article visual:** No dedicated XOR figure. The XOR discussion is on [PDF page 6](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=6), left column, Section 8. Generate the truth table/feature-space illustration from the specifications above. Caption: “Illustration of the XOR example discussed in Domingos (2012), Section 8.” Figure 3 on the same page belongs to Section 9; do not label it as an XOR figure.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Section 8, author-hosted PDF pages 5–6.
