@@ -49,6 +49,14 @@ Create three conceptual classification panels using the same hypothetical two-di
 
 Use the original Figure 2 as the reference: horizontal axis is number of training examples (log scale), vertical axis is test-set accuracy (%). Compare Naive Bayes and C4.5rules. Refer to the published figure rather than inventing numerical data. Curves average 100 runs on synthetic Boolean rule tasks, with error bars of two standard deviations. Do not imply the result holds for all datasets.
 
+### Original source visual and snapshot instructions
+
+**Preferred primary visual — original Figure 1:** [PDF page 3](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=3), upper right. Crop the complete four-dartboard panel, both row and column labels, and caption. Use this original instead of generating a replacement if it remains legible. Credit: Domingos (2012), Figure 1. Speaking cue: contrast tight off-center throws with widely scattered throws and centered tight throws.
+
+**Original research chart — Figure 2:** [PDF page 4](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=4), upper right. Crop the complete graph, axis labels, legend, error bars and caption. Preserve the logarithmic horizontal scale. Credit: Domingos (2012), Figure 2. Speaking cue: Naive Bayes leads with limited examples, while C4.5rules improves relative to it with additional examples in this synthetic rule-learning experiment. Use as a supplementary visual or backup if the main slide becomes crowded; never invent point values.
+
+The three-panel classification boundary alternative above is a custom teaching illustration, not Figure 3 of the article.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Section 5, Figures 1 and 2 (author-hosted PDF pages 3–4).
