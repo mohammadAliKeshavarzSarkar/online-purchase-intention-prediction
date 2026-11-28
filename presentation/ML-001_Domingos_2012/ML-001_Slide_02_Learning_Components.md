@@ -26,6 +26,14 @@ The important point is that choosing the model type alone is not enough. We must
 - Supporting illustration: two candidate binary word splits. For a balanced hypothetical dataset of 10 spam and 10 non-spam emails, split A separates them into (9 spam, 1 non-spam) and (1 spam, 9 non-spam); split B produces (5 spam, 5 non-spam) in each branch. Show counts, not invented performance measurements. Highlight split A as the greedy choice. Information gain is approximately 0.531 bits versus 0 bits.
 - Keep the three-component framework dominant; the small split diagram is optional if the slide becomes crowded.
 
+### Original source visual and snapshot instructions
+
+**Preferred original visual — Table 1:** [PDF page 2](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=2), top of page. Crop the table and its title only. Preserve column headings and legible entries; the columns are independent lists, not row-by-row combinations. Use it as the main visual if readable; otherwise keep the simplified three-component diagram and use the original table as a backup. Credit: Domingos (2012), Table 1. **Speaking cue:** Point to the three columns and give the decision-tree combination. 
+
+**Optional original algorithm — Algorithm 1:** [PDF page 2](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=2), right column immediately below Table 1. Crop the boxed pseudocode only. Explain the two stopping conditions, the information-gain choice, and recursion if asked. Credit: Domingos (2012), Algorithm 1.
+
+**Optional supplementary figure — Figure 3:** [PDF page 6](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf#page=6), upper right. It compares decision boundaries that may give similar predictions in regions populated by data. This belongs to Section 9, not Section 2. Reserve it for questions. Credit: Domingos (2012), Figure 3.
+
 ## Academic reference
 
 Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Section 2, Table 1 and Algorithm 1 (PDF pages 1–2, author-hosted version).
