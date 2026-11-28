@@ -17,7 +17,7 @@ Web search · Spam filtering · Recommendation systems · Fraud detection
 
 ### Purpose of the article
 
-- Present twelve practical lessons in machine learning
+- Introduce twelve practical lessons; this presentation focuses on five
 - Highlight common pitfalls and important design decisions
 - Share practical knowledge beyond standard textbooks
 
@@ -33,7 +33,7 @@ Domingos illustrates this through classification. Consider a spam filter: the in
 
 The article brings together twelve lessons from machine learning practice. Its purpose is to explain important considerations and common mistakes that are not always adequately covered in textbooks.
 
-The question guiding this presentation is: what matters beyond selecting an algorithm?
+This presentation focuses on five of those twelve lessons: learning components, generalization, feature engineering, overfitting, and causation. The question guiding it is: what matters beyond selecting an algorithm?
 
 ---
 
@@ -53,6 +53,8 @@ The question guiding this presentation is: what matters beyond selecting an algo
 
 ---
 
-**Source:** Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Abstract and Section 1 (Introduction).
+## Academic reference
+
+Domingos, P. (2012). *A Few Useful Things to Know about Machine Learning*. Communications of the ACM, 55(10), 78–87. Abstract and Section 1 (Introduction).
 
 [Author-hosted article PDF](https://homes.cs.washington.edu/~pedrod/papers/cacm12o.pdf)
