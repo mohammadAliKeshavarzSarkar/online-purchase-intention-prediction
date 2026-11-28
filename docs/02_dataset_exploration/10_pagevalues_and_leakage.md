@@ -3,6 +3,30 @@
 ## Question
 Is PageValues associated with purchase outcome, and would it be legitimately available at prediction time?
 
+## Real-world meaning: what is Page Value?
+
+Page Value is a web analytics metric that attributes monetary value to pages associated with conversions. It is not a page count, time spent, or the amount spent by an individual visitor. In legacy Google Analytics, the general formula is (transaction revenue + total goal value) / unique pageviews, with attribution to eligible pages preceding conversions.
+
+### Worked example (hypothetical)
+
+Three customers each visit a shoe product page once. Two buy shoes for $100 each; the third leaves without buying. Assuming no additional goal value, the page's attributed value is ($100 + $0 + $100) / 3 = $66.67 per unique pageview. This does not mean each visitor spends $66.67.
+
+Suppose previously assigned page values are homepage $5, product page $10, and cart $25. A visitor sees all three and leaves without buying. An illustrative session average is (5 + 10 + 25) / 3 = 13.33, while Revenue=False. This explains how nonzero page value and no purchase can coexist.
+
+The UCI dataset describes PageValues as an average page-value measure for pages visited before a transaction. The precise aggregation, attribution window, and whether the current transaction contributed to the recorded value are not established here. The example above is a teaching illustration, not a reconstruction of the dataset's calculation. See the [UCI dataset description](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset).
+
+## What the calculations measure
+
+- Count: number of sessions in each Revenue group.
+- Mean: sum of the group's PageValues divided by its session count.
+- Median: middle of sorted PageValues (average of the two middle values for an even count).
+- Minimum and maximum: smallest and largest recorded PageValues.
+- Positive means strictly greater than zero, not a purchase or a favorable outcome. Zero means the recorded metric is zero. The observed minimum is zero in both groups, so there are no negative values.
+- Positive percentage: number of PageValues greater than zero divided by the group's session count, multiplied by 100. The expression `(values > 0).mean() * 100` works because True counts as 1 and False as 0.
+- Example: [0, 0, 12, 0, 8] gives two positive values out of five, or 40%. This is not a purchase rate.
+- In the observed non-purchase group, approximately 88.56% are zero (100 - 11.44). Sorting 10,422 values places both the 5,211th and 5,212th observations among the zeros, explaining the zero median. The purchase group has approximately 19.39% zeros, so its median is positive.
+- Pearson correlation with binary Revenue measures association, not purchase probability, model accuracy, or proof of leakage.
+
 ## Executed experiment
 The researcher appended the following analysis to `src/02_prepare_data.py` and supplied the terminal output.
 
